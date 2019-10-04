@@ -13,7 +13,7 @@
 </p>
 <p>
 <h4>Word frequency:</h4>
-{% for i, val in word_frequency.items %}
+{% for i, val in sorted_words %}
     <p> word {{ i }} occurrence is {{ val }} </p>
 {% endfor %}
 </p>
